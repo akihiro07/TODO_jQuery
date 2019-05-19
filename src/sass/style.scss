@@ -1,0 +1,30 @@
+// CSS設計はSMACCS＋BEMを採用
+//************************
+//setting
+//************************
+@import './setting/_setting.scss';
+
+//************************
+//tool
+//************************
+
+
+//************************
+//base
+//************************
+@import './base/_normalize.scss';
+@import './base/_generic.scss';
+
+//************************
+//layout
+//************************
+@import './layout/_header.scss';
+@import './layout/_main.scss';
+@import './layout/_footer.scss';
+
+//************************
+//module
+//************************
+@import './module/_addTodo.scss';
+@import './module/_search.scss';
+@import './module/_todoList.scss';

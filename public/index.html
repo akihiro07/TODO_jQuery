@@ -1,0 +1,53 @@
+<!-- CSS設計はSMACSS＋BEMを採用 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <!-- ****************************
+    ヘッダー部分
+    **************************** -->
+    <header class="l-header">
+      <h1>TODO LIST</h1>
+    </header>
+
+    <!-- ****************************
+     コンテンツ部分
+    **************************** -->
+    <main class="l-main">
+      <!-- 1.TODO追加部分 -->
+      <form class="addTodo" action="">
+        <input class="addTodo__input js-addTodo__input" type="text" placeholder="TODOを記入">
+        <div class="addTodo__valid--error js-addTodo__valid">※入力して下さい</div> <!-- ライブバリデーションチェック -->
+        <button class="addTodo__submit js-addTodo__submit" type="submit" name="submit">追加</button>
+      </form>
+
+      <!-- 2.キーワード検索部分 -->
+      <div class="search">
+        <i class="fas fa-search search__icon"></i>
+        <input class="search__box js-search__box" type="text" name="input" placeholder="キーワード検索">
+      </div>
+
+      <!-- 3.TODO一覧部分 -->
+      <ul class="todoList js-todoList">
+        <!-- TODOが入ってくる(li) -->
+      </ul>
+
+    </main>
+
+    <!-- ****************************
+    フッター部分
+    **************************** -->
+    <footer class="l-footer">
+    </footer>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

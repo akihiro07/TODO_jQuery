@@ -1,0 +1,16 @@
+.l-header{
+  font-size: $title-font-size;
+  color: $main-color;
+  font-family: $font-en;
+  width: 68vw;
+  margin: 50px auto;
+  text-align: center;
+  @media screen and (max-width: 414px){
+    font-size: 2em;
+    width: 100vw;
+  }
+  @media screen and (min-width: 1024px){
+    font-size: 2.5em;
+    width: 100vw;
+  }
+}

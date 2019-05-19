@@ -1,0 +1,23 @@
+.addTodo{
+  text-align: right;
+  .addTodo__input{ //「&__input」がいい？
+    background: $main-bg;
+    font-size: $sub-font-size;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .addTodo__submit{
+    background: $sub-bg;
+    color: $main-color;
+    padding: 5px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+  .addTodo__valid--error{
+    color: $trash-color;
+    margin-top: 10px;
+    text-align: left;
+    display: none;
+  }
+}

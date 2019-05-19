@@ -1,0 +1,18 @@
+.search{
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  background: $main-bg;
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 45px;
+  border-radius: 5px;
+  .search__icon{
+    width: 6%;
+  }
+  .search__box{
+    padding: 5px 10px;
+    height: 100%;
+    width: 100%;
+  }
+}

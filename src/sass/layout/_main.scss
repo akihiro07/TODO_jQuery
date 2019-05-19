@@ -1,0 +1,12 @@
+.l-main{
+  font-size: $main-font-size;
+  color: $sub-color;
+  width: 30vw;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px){
+    width: 55vw;
+  }
+  @media screen and (max-width: 414px){
+    width: 70vw;
+  }
+}

@@ -1,0 +1,13 @@
+html{
+  height: 100vh;
+  width: 100vw; //いる？
+  word-break: break-all;
+}
+body{
+  background: linear-gradient(100deg, rgba(255, 0, 0, 0.4), rgba(0, 255, 0, 0.4)),
+  url(../background_beach.jpg);
+  background-size: cover;
+}
+ul{
+  list-style: none;
+}

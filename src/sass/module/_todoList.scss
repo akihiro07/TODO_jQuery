@@ -1,0 +1,30 @@
+.todoList{
+  margin-top: 45px;
+  .todoList__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $main-bg;
+    padding: 5px 15px;
+    margin-bottom: 1px;
+    &--done{
+      color: $done-color;
+      background: $done-bg;
+    }
+  }
+  .todoList__text{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  .todoList__edit{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    display: none; //通常は表示しない(編集時(クリックされたら)表示)
+  }
+  .todoList__trash{
+    color: $trash-color;
+  }
+}
